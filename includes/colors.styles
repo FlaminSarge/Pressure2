@@ -1,25 +1,25 @@
 "colors.styles" {
 	colors {
-		none = "0 0 0 0"
+		none = "255 255 255 0"
 		customgreyprimary = "56 56 56 255"
 		customgreyaccent = "67 67 67 255"
-		customgreysecondary = "41 41 41 255"
+		customgreysecondary = "88 88 88 255"
 
-		custombackgroundprimary = "252 252 252 255"
-		custombackgroundnofocus = "232 232 232 255"
+		custombackgroundprimary = "18 18 18 255"
+		custombackgroundnofocus = "23 23 23 255"
 
-		black = "0 0 0 255"
-		text_OnLightBG = "0 0 0 222" // 87% Opacity of black.
-		secondaryText_OnLightBG = "0 0 0 138" // ~54% Opacity
-		disabled_OnLightBG = "0 0 0 66" // ~26% Opacity
-		dividers_OnLightBG = "0 0 0 31" // ~12% Opacity
-		dividers_onLightBG_solid = "235 235 235 255" // Due to the way certain elements have to overlap, I cannot use dividers_onLightBG here with opacity.
+		black = "255 255 255 255"
+		text_OnLightBG = "255 255 255 222" // 87% Opacity of black.
+		secondaryText_OnLightBG = "255 255 255 138" // ~54% Opacity
+		disabled_OnLightBG = "255 255 255 66" // ~26% Opacity
+		dividers_OnLightBG = "255 255 255 31" // ~12% Opacity
+		dividers_onLightBG_solid = "20 20 20 255" // Due to the way certain elements have to overlap, I cannot use dividers_onLightBG here with opacity.
 
-		white = "255 255 255 255"
-		text_OnDarkBG = "255 255 255 255" // 100% Opacity of white.
-		secondaryText_OnDarkBG = "255 255 255 179" // ~70% Opacity
-		disabled_OnDarkBG = "255 255 255 77" // ~30% Opacity
-		dividers_OnDarkBG = "255 255 255 31" // ~12% Opacity
+		white = "26 26 26 255"
+		text_OnDarkBG = "126 126 126 255" // 100% Opacity of white.
+		secondaryText_OnDarkBG = "44 44 44 179" // ~70% Opacity
+		disabled_OnDarkBG = "33 33 33 77" // ~30% Opacity
+		dividers_OnDarkBG = "33 33 33 31" // ~12% Opacity
 
 		red500 = "244 67 54 255"
 		red50 = "255 235 238 255"
@@ -117,17 +117,17 @@
 		orangeA400 = "255 145 0 255"
 		orangeA700 = "255 109 0 255"
 
-		grey500 = "158 158 158 255"
-		grey50 = "250 250 250 255"
-		grey100 = "245 245 245 255"
-		grey200 = "238 238 238 255"
-		grey300 = "224 224 224 255"
-		grey400 = "189 189 189 255"
-		grey500 = "158 158 158 255"
-		grey600 = "117 117 117 255"
-		grey700 = "97 97 97 255"
-		grey800 = "66 66 66 255"
-		grey900 = "33 33 33 255"
+		grey500 = "97 97 97 255"
+		grey50 = "5 5 5 255"
+		grey100 = "10 10 10 255"
+		grey200 = "17 17 17 255"
+		grey300 = "31 31 31 255"
+		grey400 = "66 66 66 255"
+		grey500 = "97 97 97 255"
+		grey600 = "138 138 138 255"
+		grey700 = "158 158 158 255"
+		grey800 = "189 189 189 255"
+		grey900 = "222 222 222 255"
 
 		bluegrey500 = "96 125 139 255"
 		bluegrey50 = "236 239 241 255"
@@ -164,11 +164,11 @@
 		lightblueA200lesstransparent = "64 196 255 128" // ~50% Opacity lightblueA200
 		amberA400transparent = "255 196 0 64" // ~25%
 		amberA400lesstransparent = "255 196 0 128" // ~50%
-		grey100transparent = "245 245 245 54"
-		grey100lesstransparent = "245 245 245 128"
+		grey100transparent = "10 10 10 54"
+		grey100lesstransparent = "10 10 10 128"
 		blue500transparent = "33 150 243 66"
-		custombackgroundprimarytransparent = "252 252 252 85" // ~33% Opacity. Used as an overlay to cheat a 54% opacity text.
-		custombackgroundnofocustransparent = "232 232 232 85" // ~33% Opacity.
+		custombackgroundprimarytransparent = "3 3 3 85" // ~33% Opacity. Used as an overlay to cheat a 54% opacity text.
+		custombackgroundnofocustransparent = "23 23 23 85" // ~33% Opacity.
 
 		workshopblue = "27 40 56 255"
 		notificationbg = "custombackgroundprimary"
@@ -177,17 +177,17 @@
 		Friends.InGameHoverColor = "203 250 35 250"
 		Friends.OnlineColor = "46 197 235 250"
 		Friends.OnlineHoverColor = "51 214 255 250"
-		Friends.OfflineColor = "141 141 141 250"
-		Friends.OfflineHoverColor = "166 166 166 250"
+		Friends.OfflineColor = "114 114 114 250"
+		Friends.OfflineHoverColor = "89 89 89 250"
 		Friends.PanelDefault = "text_onLightBG"
 		Friends.PanelOver = "text_onLightBG"
 		Friends.PanelSelected = "white"
 		Friends.SectionHeader = "text_onLightBG"
 		Friends.NoAvatarOver = "text_onLightBG"
 		Friends.IgnoredColor = "orange500"
-		Friends.ListHeaderFadeOut = "0 0 0 0"
+		Friends.ListHeaderFadeOut = "255 255 255 0"
 
-		ListPanel.TextColor = "text_onLightBG"
+		ListPanel.TextColor = "text_onDarkBG"
 		ListPanel.BgColor = "none"
 		ListPanel.SelectedTextColor = "white"
 		ListPanel.SelectedBgColor = "blue500"
@@ -209,7 +209,7 @@
 
 		GiftOnlyInfo.ImagePanelColor = "none"
 
-		NotificationBodyText = "secondaryText_onDarkBG"
+		NotificationBodyText = "secondaryText_OnLightBG"
 
 		GiftOnlyInfo.ImagePanelColor = "none"
 		TextEntry.IMEBGColor = "none"

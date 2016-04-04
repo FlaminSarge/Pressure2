@@ -46,20 +46,11 @@
 			margin=0
 		}
 
-
-		place {
-			control=LoginErrorText
-			x=24
-			y=133
-			width=max
-			margin-right=24
-		}
-
 		place {
 			control=UserNameLabel
-			start=LoginErrorText
 			dir=down
-			y=4
+			x=24
+			y=133
 			width=95
 			height=34
 		}
@@ -78,7 +69,7 @@
 			control=PasswordLabel
 			start=UserNameLabel
 			dir=down
-			y=24
+			y=20
 			width=95
 			height=34
 		}
@@ -97,29 +88,38 @@
 			control=SavePasswordCheck
 			start=PasswordEdit
 			dir=down
-			y=8
-			width=max
+			y=12
+			width=240
 			height=18
 			margin-right=24
 		}
 		
 
 		region {
-			name=buttons
+			name=error
 			align=bottom
 			width=max
-			height=163
+			height=143
 		}
 
 		place {
 			control=LoginButton
-			region=buttons
+			start=SavePasswordCheck
+			dir=right
 			align=right
 			width=92
 			height=34
-			margin-top=12
+			margin-top=-8
 			margin-right=11
 			spacing=12
+		}
+
+		place {
+			control=LoginErrorText
+			region=error
+			width=max
+			margin-left=24
+			margin-right=24
 		}
 
 		region {
