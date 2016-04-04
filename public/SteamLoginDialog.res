@@ -88,7 +88,7 @@
 			control=SavePasswordCheck
 			start=PasswordEdit
 			dir=down
-			y=12
+			y=13
 			width=240
 			height=18
 			margin-right=24
@@ -109,7 +109,7 @@
 			align=right
 			width=92
 			height=34
-			margin-top=-8
+			margin-top=-9
 			margin-right=11
 			spacing=12
 		}
