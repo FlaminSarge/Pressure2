@@ -9,7 +9,7 @@
 		}
 
 		CSteamLoginDialog {
-			minimum-height=417
+			minimum-height=377
 
 			render {}
 			render_bg {
@@ -99,7 +99,7 @@
 			name=error
 			align=bottom
 			width=max
-			height=143
+			height=163
 		}
 
 		place {
